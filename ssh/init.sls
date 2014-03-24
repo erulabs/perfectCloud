@@ -1,7 +1,7 @@
 openssh_packages:
   pkg.latest:
     - pkgs:
-      - "net-misc/openssh"
+      - "ssh"
 
 /etc/ssh/sshd_config:
   file:
