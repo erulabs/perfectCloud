@@ -1,4 +1,10 @@
+base_packages:
+  pkg.latest:
+    - pkgs:
+      - "python-software-properties"
+
 include:
+  - iptables
   - git
   - vim
   - nodejs
@@ -6,3 +12,4 @@ include:
   - mysql
   - postfix
   - mongodb
+  - mumble-server
